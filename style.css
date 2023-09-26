@@ -1,0 +1,13 @@
+.navbar{ 
+    background-color: #fbffe3; 
+}
+
+.navbar-brand{
+    font-family: 'Skranji', cursive; 
+    font-size: 2rem;  
+}
+
+.navbar-collapse{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 1.25rem;   
+}
