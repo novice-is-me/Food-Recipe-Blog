@@ -1,5 +1,19 @@
+body{
+    background-color: #fbffe3;
+}
+
+body::before{
+    display: block;
+    content: "";
+    height: 65px;    
+} 
+
+a{
+    text-decoration: none; 
+}
+
 .navbar{ 
-    background-color: #fbffe3; 
+    background-color: #fbffe3;  
 }
 
 .navbar-brand{
@@ -7,7 +21,85 @@
     font-size: 2rem;  
 }
 
-.navbar-collapse{
-    font-family: 'Roboto', sans-serif;  
+.navbar-collapse, 
+.link-1,
+.link-2,
+.link-3,
+.link-4,
+.link-5{
+    font-family: 'Roboto', sans-serif;   
     font-size: 1.25rem;   
+}
+
+.text-header{
+    font-family: 'Lora', serif;
+    font-weight: 600;  
+    line-height: 1.5;          
+}
+
+.header-container{ 
+    background: url(https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg);
+    width: 100%;
+    background-size: cover;      
+
+}
+
+.head-link{
+    background-color: aquamarine; 
+    border-radius: 20px; 
+    padding: 1.5em  !important;
+    margin-bottom: 10em !important;         
+}
+
+.bi-search{
+    border-right: none;
+}
+
+.link-1,
+.link-2,
+.link-3,
+.link-4,
+.link-5{ 
+    border-radius: 20px; 
+}
+
+.link-1{
+    background-color: #f0f5c4;
+}
+
+.link-2{
+    background-color: #efedfa; 
+}
+
+.link-3{
+    background-color: #e8f5fa;
+}
+
+.link-4{
+    background-color: #feefc9;
+}
+
+.link-5{
+    background-color: #ffeae3; 
+}
+
+.btn-block:hover{
+    border: 1px solid black; 
+}
+
+@media (min-width:768px){ 
+    .text-header{
+        font-size: 4rem;   
+    }
+    
+}
+
+@media (max-width:767px){
+    .text-header{
+        font-size: 2rem; 
+        line-height: normal;   
+    }
+    .header-container{
+        margin: 1em 0;  
+    }   
 }
