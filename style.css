@@ -31,7 +31,8 @@ a{
     font-size: 1.25rem;   
 }
 
-.text-header{
+.text-header,
+h2{ 
     font-family: 'Lora', serif;
     font-weight: 600;  
     line-height: 1.5;          
@@ -64,32 +65,53 @@ a{
 }
 
 .link-1{
-    background-color: #f0f5c4;
+    background: #f0f5c4;  
+    color: #689c01;   
 }
-
+ 
 .link-2{
     background-color: #efedfa; 
+    color: #8a80c2;    
 }
 
 .link-3{
     background-color: #e8f5fa;
+    color: #5e96ad;    
 }
 
 .link-4{
     background-color: #feefc9;
-}
+    color: #a68a44;
+}  
 
 .link-5{
     background-color: #ffeae3; 
+    color: #c37256; 
 }
 
 .btn-block:hover{
     border: 1px solid black; 
 }
 
+.img-featured{
+    object-fit: cover; 
+    width: 100%;
+    max-height: 350px;  
+ } 
+
+ .button-featured{
+    background: transparent;  
+    border-radius: 10px; 
+    color: black;       
+ }
+
 @media (min-width:768px){ 
     .text-header{
         font-size: 4rem;   
+    }
+
+    .img-featured{
+        max-height: 400px; 
     }
     
 }
