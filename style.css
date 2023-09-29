@@ -32,7 +32,9 @@ a{
 }
 
 .text-header,
-h2{ 
+h1,
+h2,
+h3{   
     font-family: 'Lora', serif;
     font-weight: 600;  
     line-height: 1.5;          
@@ -104,6 +106,10 @@ h2{
     border-radius: 10px; 
     color: black;       
  }
+
+ .card:hover{
+    cursor: pointer; 
+ } 
 
 @media (min-width:768px){ 
     .text-header{
