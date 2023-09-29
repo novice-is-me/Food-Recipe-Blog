@@ -101,15 +101,17 @@ h3{
     max-height: 350px;  
  } 
 
- .button-featured{
+ .btn-view{ 
     background: transparent;  
     border-radius: 10px; 
     color: black;       
- }
+ } 
 
  .card:hover{
     cursor: pointer; 
- } 
+ }
+
+
 
 @media (min-width:768px){ 
     .text-header{
@@ -125,9 +127,16 @@ h3{
 @media (max-width:767px){
     .text-header{
         font-size: 2rem; 
-        line-height: normal;   
+        line-height: normal; 
+        padding-top: 3em;    
     }
     .header-container{
         margin: 1em 0;  
     }   
+
+    .section-option{
+        display: none;  
+    } 
+
+     
 }

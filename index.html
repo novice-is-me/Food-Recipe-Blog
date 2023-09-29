@@ -57,14 +57,14 @@
                     <h1 class="text-header py-md-5 my-md-4" >                  
                         Exploring the World of Delicious Dishes</h1>   
                  
-                    <div class="input-group input-group-lg px-md-5 px-5">               
+                    <div class="input-group input-group-lg px-md-5 px-5 search-input">               
                         <i class="bi bi-search input-group-text border-0 bg-white mb-5"></i>   
                         <input type="text" placeholder="Search for recipe" class="form-control
                         border-0 mb-5">      
-                    </div>   
+                    </div>    
                 </div> 
 
-                <div class="row justify-content-center py-md-5 py-sm-2">      
+                <div class="row justify-content-center py-md-5 py-sm-2 section-option">      
                     <div class="col-md-2 mb-2">  
                         <a href="" class="btn btn-block link-1">ENTREES</a>
                     </div>
@@ -99,52 +99,74 @@
                         velit aut exercitationem itaque molestias 
                         autem ullam quam labore fuga. Lorem ipsum dolor sit amet consectetur
                         adipisicing elit.</p>   
-                    <button class="btn btn-secondary my-3 p-3 button-featured" >View Recipe</button>    
+                    <button class="btn btn-secondary my-3 p-3 btn-view" >View Recipe</button>    
                 </div> 
             </div>
         </div>
     </section>
 
-    <!--Latest Post-->
-    <section class="p-sm-5 py-1 px-3 text-sm-center">
-        <div class="container">
-            <h1>Latest Recipe</h1> 
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!--Latest Post-->  
+    <section class="p-sm-5 pt-sm-0 px-3 text-sm-center">
+        <div class="container">    
+            <h1 class="my-4 text-start">Latest Recipe</h1>   
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
                 <div class="col">
-                    <div class="card">
-                        <img src="media\bread.jpg" alt="">
+                    <div class="card rounded-5"> 
+                        <img src="media\bread.jpg" alt=""
+                        class="rounded-top-5">   
                         <div class="card-body">
-                            <h3 class="card-title">
-                                Egg French Toast 
-                            </h3>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
-                        </div> 
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="media\pasta.jpg" alt="">
-                        <div class="card-body">
-                            <h3 class="card-title">
-                                Creamy Macaroni 
-                            </h3>
-                            <p></p>
+                            <h3 class="card-title p-2 text-start">  
+                                Egg French Toast   
+                            </h3>   
+                            <div class="d-flex justify-content-between px-2 py-3">     
+                                <span class="border p-2 link-2">BREAKFAST</span>  
+                                <div class="p-2">          
+                                    <i class="bi bi-clock"></i> 
+                                    <span>20 minutes</span>
+                                </div>  
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card"> 
-                        <img src="media\salad.jpg" alt="">
+                    <div class="card rounded-5">
+                        <img src="media\pasta.jpg" alt=""
+                        class="rounded-top-5">
                         <div class="card-body">
-                            <h3 class="card-title">
-                                Vegetable Salad  
-                            </h3>
-                            <p></p>
+                            <h3 class="card-title p-2 text-start">  
+                                Creamy Pasta   
+                            </h3>   
+                            <div class="d-flex justify-content-between px-2 py-3">     
+                                <span class="border p-2 link-3">LUNCH</span>  
+                                <div class="p-2">          
+                                    <i class="bi bi-clock"></i> 
+                                    <span>50 minutes</span> 
+                                </div>  
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col"> 
+                    <div class="card rounded-5"> 
+                        <img src="media\salad.jpg" alt=""
+                        class="rounded-top-5"> 
+                        <div class="card-body"> 
+                            <h3 class="card-title p-2 text-start">  
+                                Vegetable Salad    
+                            </h3>   
+                            <div class="d-flex justify-content-between px-2 py-3">     
+                                <span class="border p-2 link-4">SNACKS</span>  
+                                <div class="p-2">          
+                                    <i class="bi bi-clock"></i> 
+                                    <span>40 minutes</span>  
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="text-center m-3">  
+            <button class="btn btn-secondary my-3 p-3 btn-view">View All Recipes</button>  
             </div>
         </div>
     </section>
