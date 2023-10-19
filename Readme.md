@@ -14,4 +14,4 @@ This landpage was developed by utilizing:
 --Javascript
 
 
-Live Preview: 
+Live Preview: [Click Here](https://novice-is-me.github.io/Food-Recipe-Blog/)
